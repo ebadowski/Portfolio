@@ -1,0 +1,66 @@
+/* nav .nav-background img.k, nav .nav-background .ea.k {
+    opacity: 1;
+}
+nav .nav-background img, nav .nav-background .ea {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    max-width: 100%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: opacity .7s;
+} */
+
+/* body {background-color:#555;} */
+
+.nav-btns {
+    height: 64px;
+    width: 216px;
+}
+
+.nav-link-btn {
+    width: 72px;
+    height: 25px;
+    
+    top: 50%;
+    
+  
+    transform: translate(0%, -50%);
+}
+/* .collapsible{
+    margin: 0;
+}
+.collapsible-item{
+    height: 110%;
+}
+.item-img{
+    height: 50px;
+    width: 50px;
+} */
+
+.ea {
+    background-image: url('../images/code_bkg.jpg');
+    width: 100%;
+    height: 150px;
+}
+
+.x {
+    /* background-color: #2196F3 !important; */
+    /* opacity: .1; */
+}
+
+.nav-background {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    /* opacity: .1; */
+}
